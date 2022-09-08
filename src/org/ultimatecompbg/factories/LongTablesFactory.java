@@ -5,6 +5,7 @@ import org.ultimatecompbg.tables.Table;
 
 public class LongTablesFactory implements Factory{
     @Override
+    // Returns object of class LongTable
     public Table createTable() {
         return new LongTable();
     }
